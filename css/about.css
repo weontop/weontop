@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Baron Neue';
-  src: local("Baron Neue"),
+  font-family: 'Baron-Neue';
+  src: local("Baron-Neue"),
        local("BaronNeue"),
        url("../fonts/Baron-Neue.otf");
 }
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, div {
 }
 
 span, p {
-  font-size: 14;
+  font-size: 1em;
   font-family: 'Baron-Neue';
 
 }
