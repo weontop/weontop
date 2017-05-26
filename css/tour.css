@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Baron Neue';
+  src: local("Baron Neue"),
+       local("BaronNeue"),
+       url("../fonts/Baron-Neue.otf");
+}
+
+@font-face {
+  font-family: 'Baron Neue Black';
+  src: local("Baron Neue Black"),
+       local("BaronNeue-Black"),
+       url("../fonts/Baron-Neue-Black.otf");
+  font-weight: bold;
+}
+
+h1, div {
+  font-family: 'Baron Neue Black';
+  font-size: 34px
+  letter-spacing: 7.5em;
+}
+
+h2 {
+  font-family: 'Baron Neue Black';
+  font-size: 14px
+  letter-spacing: 7.5em;
+}
+
+p {
+  font-family: 'Baron Neue';
+  font-size: 34px
+  letter-spacing: 7.5em;
+}
+
+.topbar {
+  height: 92px;
+}
+
+.logo-container {
+  width: 100%;
+}
+
+.logo {
+  margin-top: 28px;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  left: calc((100vw / 2) - 32px);
+}
+
+.navbar {
+  padding-bottom: 0px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  z-index: 1;
+  padding-top: 40px;
+}
+
+.navbar-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navbar-item .text {
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-item .home.text {
+  padding-right: 3px;
+}
+
+.navbar-item .about.text {
+  padding-right: 2px;
+}
+
+.navbar-item .underline {
+  visibility: hidden;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+}
+
+.navbar-item:hover .underline {
+  visibility: visible;
+}
+
+@media (max-width: 1200px) {
+  .content-container {
+    margin-top: 40px;
+  }
+}
+
+.content-container p {
+  width: 280px;
+}
+
+.footer {
+  background-color: white;
+  min-height: 46px;
+  height: 12vh;
+}
+
+.footer .flex-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social-icons {
+  justify-content: center;
+  display: flex;
+  height: 36px;
+}
+
+.social-icon {
+  display: block;
+  margin-right: 32px;
+}
+
+@media (min-height: 1020px) {
+  .main-container {
+    height: 80%;
+  }
+
+  .footer {
+    height: 28vh;
+  }
+}
+
+@media (min-height: 1240px) {
+  .main-container {
+    height: 65%;
+  }
+
+  .footer {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 1440px) {
+  .title {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  .main-container {
+    min-height: 1212px;
+  }
+

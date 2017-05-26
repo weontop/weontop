@@ -21,7 +21,7 @@
   font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, div {
+h1, h3, h4, h5, h6, div {
   font-size: 1em;
   font-family: 'Baron Neue Black';
 }
@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6, div {
 span, p {
   font-size: 1em;
   font-family: 'Baron-Neue';
+
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Baron Neue Black';
 
 }
 
