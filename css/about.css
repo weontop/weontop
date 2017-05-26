@@ -219,7 +219,7 @@ button {
 
 @media (min-height: 1240px) {
   .main-container {
-    height: 65vh;
+    height: 65%;
   }
 
   .footer {
