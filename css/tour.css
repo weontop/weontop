@@ -13,13 +13,7 @@
   font-weight: bold;
 }
 
-h1, div {
-  font-family: 'Baron Neue Black';
-  font-size: 34px
-  letter-spacing: 7.5em;
-}
-
-h2 {
+h2, h1 {
   font-family: 'Baron Neue Black';
   font-size: 14px
   letter-spacing: 7.5em;
@@ -49,7 +43,26 @@ a.btn {
   margin:right: 0 0 30px 72px;
   margin-right: 30px;
   margin-left: 70px;
+  width: 777px;
+  height: 858px;
 
+}
+
+.tourTitle {
+  width: 299px;
+  height: 58px;
+  font-family: BaronNeue;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: 7.5px;
+  color: #000000;
+}
+
+.tourTitle .text-style-1 {
+  letter-spacing: normal;
 }
 
 .topbar {
@@ -124,10 +137,12 @@ a.btn {
 #pay-now-button {
   width: 140px;
   height: 26px;
+    float; right
 }
 
-.play-now-button {
+.pay-now-button {
   padding-right: 70px;
+  float; right
 }
 
 .description {
@@ -135,11 +150,31 @@ a.btn {
   width: 488px;
 }
 
+.total {
+  width: 140px;
+  height: 52px;
+  font-family: BaronNeue;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4.4px;
+  color: #000000;
+  text-align: right;
+}
+
+.total-1980-00 .text-style-1 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .itinerary {
   color: black;
   width: 777px;
   padding-bottom: 60px
 }
+
 
 .footer {
   background-color: white;
