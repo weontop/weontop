@@ -20,8 +20,8 @@ function changeText (nextIndex) {
   var subtitle = ['escape tour', 'coming soon', 'coming soon'];
   var description = [
     'its a 14 day tour designed for young and active teenagers/adults to escape their daily lives and live for a couple weeks like all the famous instagrammers and celebrities you see on social media like instagram and snapchat live with the most beautiful places, luxury mansions and pool parties while having the most amazing fun and adventures!',
-    'Follow us on instagram to find out when we launch in cerro tusa and check out all of our amazing content!',
-    'Follow us on instagram to find out when we launch in guatapé and check out all of our amazing content!',
+    'Follow us on instagram to find out when we launch in ecuador and check out all of our amazing content!',
+    'Follow us on instagram to find out when we launch in peru and check out all of our amazing content!',
   ];
   var button = ['book adventure', 'follow', 'follow']
 
