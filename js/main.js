@@ -23,12 +23,20 @@ function changeText (nextIndex) {
     'Follow us on instagram to find out when we launch in ecuador and check out all of our amazing content!',
     'Follow us on instagram to find out when we launch in peru and check out all of our amazing content!',
   ];
-  var button = ['book adventure', 'follow', 'follow']
+  var button = [
+    '<a href="#" class="btn" id="book-adventure-button">book adventure</a>',
+    '<a href="https://www.instagram.com/weontop.co/" target="_blank" class="btn">follow</a>',
+    '<a href="https://www.instagram.com/weontop.co/" target="_blank" class="btn">follow</a>',
+  ];
 
   $('.content-container .title').text(title[nextIndex]);
   $('.content-container .subtitle').text(subtitle[nextIndex]);
   $('.content-container .description').text(description[nextIndex]);
-  $('#book-adventure-button').text(button[nextIndex]);
+
+  $('.action-container').html(button[nextIndex]);
+  if (nextIndex === 0) {
+    // set button event
+  }
 
   $('.content-container .title-container').removeClass('black');
   if (nextIndex === 1) {
